@@ -62,7 +62,7 @@ export default function HeroSection() {
       `}} />
       
       <section 
-        className="relative min-h-[95vh] overflow-hidden bg-slate-900"
+        className="relative min-h-[78vh] sm:min-h-[95vh] overflow-hidden bg-slate-900"
         aria-labelledby="hero-heading"
       >
         {/* Background - Same as home page */}
@@ -102,7 +102,7 @@ export default function HeroSection() {
         </div>
 
         {/* Main content container */}
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 xs:pt-28 sm:pt-32 md:pt-40 pb-12 sm:pb-16 md:pb-20">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-40 xs:pt-28 sm:pt-32 md:pt-40 lg:pt-40 pb-12 sm:pb-16 md:pb-20">
           <div className="text-center max-w-5xl mx-auto">
             {/* Badge - White text on blue background */}
             <div className="inline-flex items-center gap-2 px-3 xs:px-4 py-1.5 xs:py-2 bg-blue-500/20 backdrop-blur-sm border border-blue-400/30 rounded-full mb-6 xs:mb-8">
