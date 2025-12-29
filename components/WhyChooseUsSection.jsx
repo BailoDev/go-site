@@ -107,7 +107,7 @@ export default function WhyChooseUsSection() {
                   <Users className="w-5 h-5 text-blue-900" />
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl md:text-3xl font-outfit font-bold text-gray-900">500+</div>
+                  <div className="text-2xl md:text-3xl font-outfit font-bold text-gray-900">20+</div>
                   <div className="text-xs md:text-sm font-outfit text-gray-600 mt-1">Projects Delivered</div>
                 </div>
               </div>
@@ -117,7 +117,7 @@ export default function WhyChooseUsSection() {
                   <Award className="w-5 h-5 text-blue-900" />
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl md:text-3xl font-bold text-gray-900">15+</div>
+                  <div className="text-2xl md:text-3xl font-bold text-gray-900">5+</div>
                   <div className="text-xs md:text-sm text-gray-600 mt-1">Years Experience</div>
                 </div>
               </div>
