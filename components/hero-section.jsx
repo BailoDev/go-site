@@ -63,13 +63,13 @@ export function HeroSection() {
         }
       `}} />
       
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-slate-900 pb-[50px] sm:pb-[60px] md:pb-[80px] lg:pb-[100px]">
+      <section className="relative min-h-[85vh] sm:min-h-screen flex items-center justify-center overflow-hidden bg-slate-900 pb-[50px] sm:pb-[60px] md:pb-[80px] lg:pb-[100px]">
         {/* Background */}
         <div className="absolute inset-0">
           <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-50"
             style={{
-              backgroundImage: `url('/kawsu-presentation.jpg')`,
+              // backgroundImage: `url('/kawsu-presentation.jpg')`,
             }}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-slate-900/10 via-transparent to-transparent" />
@@ -103,7 +103,7 @@ export function HeroSection() {
         {/* Content Container - Fixed to prevent overlap */}
         <div className="relative z-10 w-full h-full flex flex-col">
           {/* Text Content - Takes up top portion */}
-          <div className="flex-1 flex items-center justify-center pt-16 xs:pt-18 sm:pt-24 md:pt-28 pb-6 xs:pb-8 sm:pb-12 md:pb-16">
+          <div className="flex-1 flex items-center justify-center pt-20 xs:pt-24 sm:pt-24 md:pt-28 pb-4 xs:pb-6 sm:pb-12 md:pb-16">
             <div className="container mx-auto px-3 xs:px-4 sm:px-6 lg:px-8">
               <div className="max-w-5xl mx-auto text-center">
                 {/* Badge */}
@@ -113,7 +113,7 @@ export function HeroSection() {
                 </div>
 
                 {/* Main Heading */}
-                <h1 className="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight mb-2.5 xs:mb-3 sm:mb-4 px-2 xs:px-4">
+                <h1 className="text-3xl xs:text-4xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight mb-3 xs:mb-4 sm:mb-4 px-2 xs:px-4">
                   Transform Data Into Intelligence.
                   <br />
                   <span className="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-500 bg-clip-text text-transparent">
@@ -123,10 +123,10 @@ export function HeroSection() {
 
                 {/* Two attention-grabbing lines */}
                 <div className="max-w-3xl mx-auto px-2 xs:px-4">
-                  <p className="text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl text-blue-50 leading-relaxed font-light">
+                  <p className="text-sm xs:text-base sm:text-base md:text-lg lg:text-xl text-blue-50 leading-relaxed font-light">
                     We turn raw data into predictive intelligence and ideas into scalable software.
                   </p>
-                  <p className="text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl text-white leading-relaxed font-medium mt-1 xs:mt-1.5 sm:mt-2">
+                  <p className="text-sm xs:text-base sm:text-base md:text-lg lg:text-xl text-white leading-relaxed font-medium mt-2 xs:mt-2 sm:mt-2">
                     AI-powered insights. Data-driven decisions. Software that evolves with you.
                   </p>
                 </div>
@@ -135,9 +135,9 @@ export function HeroSection() {
           </div>
 
           {/* Dashboard Space - Fixed height for dashboard */}
-          <div className="relative h-[220px] xs:h-[270px] sm:h-[320px] md:h-[370px] lg:h-[420px] xl:h-[470px]">
+          <div className="relative h-[160px] xs:h-[200px] sm:h-[280px] md:h-[340px] lg:h-[400px] xl:h-[450px]">
             {/* Dashboard Preview - Positioned with 3/4 visible */}
-            <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/4 z-20 w-[92%] sm:w-[88%] md:w-[85%] lg:w-[90%] xl:w-full max-w-6xl px-3 sm:px-4">
+            <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-[25%] z-20 w-[92%] sm:w-[88%] md:w-[85%] lg:w-[90%] xl:w-full max-w-6xl px-3 sm:px-4">
               <div className="relative rounded-xl sm:rounded-2xl overflow-hidden shadow-2xl border border-gray-200/50 bg-white">
                 <img
                   src="/ministry of fishries.jpg"
