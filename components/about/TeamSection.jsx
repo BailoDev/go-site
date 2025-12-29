@@ -10,23 +10,21 @@ const teamMembers = [
     socials: {
       twitter: "#",
       linkedin: "#",
-      github: "#",
     },
   },
   {
-    name: "Marcus Rodriguez",
+    name: "Salieu Jallow",
     role: "Director",
     image: "/staff/salieu.jpg",
     socials: {
       twitter: "#",
       linkedin: "#",
-      github: "#",
     },
   },
   {
     name: "Fatoumatta Danso",
     role: "Chief Technology Officer",
-    image: "/professional-woman-designer-creative.jpg",
+    image: "/staff/Danso.jpg",
     socials: {
       twitter: "#",
       linkedin: "#",
@@ -50,6 +48,7 @@ const teamMembers = [
     socials: {
       twitter: "#",
       linkedin: "#",
+      instagram: "#",
     },
   },
   {
@@ -69,6 +68,7 @@ const teamMembers = [
     socials: {
       twitter: "#",
       linkedin: "#",
+      github: "#",
     },
   },
   {
@@ -88,6 +88,7 @@ const teamMembers = [
     socials: {
       twitter: "#",
       linkedin: "#",
+      github: "#",
     },
   },
   {
@@ -97,6 +98,7 @@ const teamMembers = [
     socials: {
       twitter: "#",
       linkedin: "#",
+      github: "#",
     },
   },
 ]
@@ -155,11 +157,11 @@ export default function TeamSection() {
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
 
-              {/* Gradient overlay that slides up on hover */}
-              <div className="absolute inset-x-0 bottom-0 h-0 bg-gradient-to-t from-blue-900/90 via-blue-700/60 to-transparent opacity-95 transition-all duration-500 group-hover:h-full" />
+              {/* Gradient overlay - always visible, expands on hover */}
+              <div className="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-blue-900/90 via-blue-700/60 to-transparent opacity-95 transition-all duration-500 group-hover:h-full" />
 
-              {/* Content that slides up from bottom */}
-              <div className="absolute inset-x-0 bottom-0 translate-y-full p-6 transition-transform duration-500 group-hover:translate-y-0">
+              {/* Content - always visible at bottom */}
+              <div className="absolute inset-x-0 bottom-0 p-6 transition-transform duration-500">
                 <div className="text-white">
                   <h3 className="mb-1 text-xl font-bold">{member.name}</h3>
                   <p className="mb-4 text-sm text-white/90">{member.role}</p>
